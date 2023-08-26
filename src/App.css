@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab&family=Titillium+Web:ital,wght@1,300&display=swap');
+
+.homepage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.form {
+  background: #2C394B;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-decoration: none;
+}
+
+footer a {
+  color: #5B9A8B;
+}
+
+.inputroomid {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  margin-bottom: 15px;
+  background: #eee;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out
+}
+
+.joinbtn,
+.leavebtn {
+  background: #5B9A8B;
+}
+
+.joinbtn:hover,
+.leavebtn:hover {
+  background: #0B666A;
+}
+
+.createRoom {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createRoom a {
+  color: #5B9A8B;
+  text-decoration: none;
+  border-bottom: 1p solid;
+}
+
+.createRoom a:hover {
+  color: #0B666A;
+}
+
+footer a:hover {
+  color: #0B666A;
+}
+
+.logoimg {
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.mainblock {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.sidebar {
+  background: #011520;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.innersidebar {
+  flex: 1;
+}
+
+.connectedUsers {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.userName {
+  margin-top: 10px;
+}
+
+.logo {
+  margin-bottom: 2px;
+  border-bottom: 1px solid #424242;
+}
+
+.leavebtn {
+  margin-top: 20px;
+
+}
+
+.runbtn {
+  margin-top: 20px;
+  margin-left: 10px;
+  background: #5B9A8B;
+}
+
+.runbtn:hover {
+  background: #0B666A;
+
+}
+
+.outputtxt {
+  margin-left: 10px;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-weight: bold;
+}
